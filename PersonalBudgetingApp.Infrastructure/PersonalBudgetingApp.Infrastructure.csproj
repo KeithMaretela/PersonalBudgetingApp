@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalBudgetingApp.Application\PersonalBudgetingApp.Application.csproj" />
+    <ProjectReference Include="..\PersonalBudgetingApp.Domain\PersonalBudgetingApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Context\" />
+    <Folder Include="Data\Configurations\" />
+    <Folder Include="Data\Migrations\" />
+    <Folder Include="Data\Seed\" />
+    <Folder Include="ExternalApis\" />
+    <Folder Include="Export\" />
+    <Folder Include="Services\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+</Project>

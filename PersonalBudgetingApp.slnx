@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="PersonalBudgetingApp.Application/PersonalBudgetingApp.Application.csproj" />
+  <Project Path="PersonalBudgetingApp.Domain/PersonalBudgetingApp.Domain.csproj" />
+  <Project Path="PersonalBudgetingApp.Infrastructure/PersonalBudgetingApp.Infrastructure.csproj" />
+  <Project Path="PersonalBudgetingApp.Presentation/PersonalBudgetingApp.Presentation.csproj" />
+  <Project Path="PersonalBudgetingApp.Tests/PersonalBudgetingApp.Tests.csproj" />
+</Solution>
